@@ -12,7 +12,7 @@ A modern, lightweight email service built with Next.js and Tailwind CSS, focusin
 
 ## Documentation
 
-Visit our [documentation](https://sennamail.docs) for detailed usage instructions.
+Visit our [documentation](https://docs.senna.email) for detailed usage instructions.
 
 ## Contributing
 
@@ -25,4 +25,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Support
 
 - [Report Issues](https://github.com/sennamail/issues)
-- [Community Forum](https://sennamail.community)
+- [Community Forum](https://community.senna.email)
