@@ -1,4 +1,0 @@
-Senna Bot
-- SennaMail API Commands
-- Connect to your senna account.
-- Sell/Buy senna mail emails. (Crypto and Stripe Avaliable)

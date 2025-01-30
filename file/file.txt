@@ -1,4 +1,0 @@
-Image Upload Host
-- Discord Embed Support
-- Customisation
-- Domain Name Changer

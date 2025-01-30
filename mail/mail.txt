@@ -1,4 +1,0 @@
-SennaMail
-- IMAP Support
-- Custom Domain Support
-- 
