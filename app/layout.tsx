@@ -7,6 +7,7 @@ export const metadata: Metadata = {
     description: "Encrypted no-log email service.",
     robots: "noindex, nofollow",
     creator: "senna.email",
+    metadataBase: new URL("https://senna.email"),
 
 }
 
