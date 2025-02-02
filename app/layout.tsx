@@ -3,9 +3,9 @@ import type { Metadata } from 'next';
 import "./globals.css";
 
 export const metadata: Metadata = {
-    title: "senna.email",
+    title: {default: "senna.email", template: "%s | senna.email"},
     description: "Encrypted no-log email service.",
-    robots: "noindex, nofollow",
+    robots: {index: false, follow: false},
     creator: "senna.email",
     metadataBase: new URL("https://senna.email"),
 
