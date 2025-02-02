@@ -7,7 +7,7 @@ import { useActionState } from 'react'
 export function SignupForm({ children }: { children: ReactNode }) {
     const [state, action, pending] = useActionState(signup, undefined)
     return (
-        <form action={action} className='' method='post'>
+        <form action={action} className='flex flex-col'>
         <div>
           <input className='w-full p-3 mt-5 bg-stone-800 text-white rounded-2xl' id="username" name="username" placeholder='Username'/>
         </div>
