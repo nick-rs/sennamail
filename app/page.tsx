@@ -1,5 +1,5 @@
 import type { Viewport } from 'next'
-import Form from 'next/form'
+import { SignupForm } from './ui/signup-form'
  
 export const viewport: Viewport = {
   themeColor: 'black',
@@ -25,11 +25,9 @@ export default function Home() {
             Encrypted no-log email service.
         </p>
         <div className='mt-10 p-5 dark:bg-stone-950 dark:opacity-25 rounded-3xl'>
-            <form>
-              <input type='username' placeholder='Username' className='w-full p-3 mt-5 bg-stone-800 text-white rounded-2xl'></input>
-              <input type='password' placeholder='Password' className='w-full p-3 mt-5 bg-stone-800 text-white rounded-2xl'></input>
-              <button className='w-full p-3 mt-5 rounded-md'><span className='opacity-100 text-stone-900 dark:text-white dark:hover:text-white hover:text-blue-800'>Sign In</span></button>
-            </form>
+          <SignupForm>
+          // Signup Form
+          </SignupForm>
         </div>
         </div>
       </>
